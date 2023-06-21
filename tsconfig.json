@@ -19,5 +19,7 @@
     "noFallthroughCasesInSwitch": false,
     "resolveJsonModule": true,
     // "sourceRoot": "/"
-  }
+  },
+  // https://github.com/prisma/prisma-examples/issues/3758
+  "include": ["src/**/*"]
 }
